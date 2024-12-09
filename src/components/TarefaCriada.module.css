@@ -1,0 +1,30 @@
+.container{
+    width: 46rem;
+    height: 4.5rem;
+    background: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.tarefa{
+
+}
+
+.conteudo{
+    color: var(--gray-100);
+    font-size: 0.875rem;
+}
+
+.excluir{
+    float: inline-end;
+}
+
+.marcacao{
+    border-radius: 50%;
+    border: 1px solid var(--blue);
+    cursor: pointer;
+}

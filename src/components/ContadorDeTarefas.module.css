@@ -1,0 +1,39 @@
+.pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filhoColunaUm{
+    width: 46rem;
+    height: 1.1875rem;
+   /* border: solid 1px var(--blue);*/
+    margin-top: 3.7rem;
+}
+
+.filhoColunaDois{
+    width: 46rem;
+    height: 17.9375rem;
+    /* border: solid 1px var(--purple); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.criadas{
+    color: var(--blue);
+    float: left;
+}
+
+.concluidas{
+    color: var(--purple);
+    float: right;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    color: var(--gray-300)
+}
