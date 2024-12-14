@@ -1,20 +1,22 @@
+import { Conteudo } from './components/Conteudo'
 import { Header } from './components/Header'
-import { Tarefa } from './components/Tarefa'
-import { ContadorDeTarefas } from './components/ContadorDeTarefas'
-
-
-
+import { Input } from './components/Input'
+import styles from './App.module.css'
 import './global.css'
-import { TarefaCriada } from './components/TarefaCriada'
 
 
 function App() {
   return (
     <div>
-      <Header />
-      <Tarefa />
-      <ContadorDeTarefas />
-      <TarefaCriada />
+        <Header />
+      <body>
+        <main>
+          <Input />
+          <div className={styles.caixaCentral}>
+            <Conteudo />
+          </div>
+        </main>
+      </body>
     </div>
   )
 }

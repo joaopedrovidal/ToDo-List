@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.caixaCentral{
+    margin-top: 5rem;
+}

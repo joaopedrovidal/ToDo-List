@@ -1,11 +1,14 @@
-.header{
+.header {
     background: var(--gray-700);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 12.5rem;
+    margin: 0;
+    padding: 0;
 }
+
 
 .spanBlue{
     color: var(--blue);

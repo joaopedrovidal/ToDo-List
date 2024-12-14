@@ -1,0 +1,33 @@
+.tarefa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.input{
+    width: 46rem;
+    height: 3.375rem;
+    background:var(--gray-500);
+    color: var(--gray-300);
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    outline: none;
+    padding-left: 15px;
+}
+
+
+.button{
+    color: var(--gray-100);
+    background: var(--blueDark);
+    width: 5.625rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}

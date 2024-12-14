@@ -1,0 +1,67 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    display: flex;
+    height: 18rem;
+    width: 52rem;
+    flex-direction: column;
+}
+
+.criadas{
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    gap: 0.5;
+    justify-content: space-between;
+}
+
+.concluidas{
+    color: var(--purple);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.contador{
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 8px;
+    width: 1.5rem;
+    height: 1.18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registro{
+    width: 100%;
+    height: 1.18rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: var(--gray-300);
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clipboard{
+    width: 3.5rem;
+    height: 3.5rem;
+}
