@@ -1,0 +1,65 @@
+.container{
+    background: var(--gray-500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var( --gray-100);
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    width: 100%;
+
+    max-width: 46rem;
+    height: 4.5rem;
+    margin: 0.5rem;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding: 1rem;
+}
+
+.excluir{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.excluir:hover {
+    filter: brightness(0) saturate(100%) invert(28%) sepia(76%) saturate(630%) hue-rotate(340deg) brightness(90%) contrast(95%);
+}
+
+.concluida{
+    color: var(--gray-300);
+    text-decoration:line-through;
+}
+
+@media (max-width: 768px) {
+    .container {
+        align-items: center;
+        padding: 1rem;
+    }
+}
+
+.marcacao{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, border 0.2s;
+}
+
+.marcacao:checked {
+    background-color: var(--purple);
+    border: 2px solid var(--purpleDark);
+    position: relative;
+    background-image: url('../assets/Checked.svg');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

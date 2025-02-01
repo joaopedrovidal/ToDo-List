@@ -1,18 +1,19 @@
 .wrapper {
     display: flex;
     align-items: center;
-    border: 1px solid red;
+
     display: flex;
     height: 18rem;
     width: 52rem;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .criadas{
     color: var(--blue);
     display: flex;
     align-items: center;
-    gap: 0.5;
+    gap: 0.5rem;
     justify-content: space-between;
 }
 
@@ -28,30 +29,30 @@
     background: var(--gray-400);
     color: var(--gray-200);
     border-radius: 8px;
-    width: 1.5rem;
     height: 1.18rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0.25rem 0.5rem;
 }
 
 .registro{
     width: 100%;
-    height: 1.18rem;
+    height: 3rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
-    border: 1px solid green;
+    gap: 2rem;
 }
 
 .aviso{
     display: flex;
-    justify-content: center;
-    border: 1px solid white;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
     color: var(--gray-300);
+    margin-top: 1rem;
 }
 
 .alinhamento{
@@ -64,4 +65,17 @@
 .clipboard{
     width: 3.5rem;
     height: 3.5rem;
+}
+
+.tarefaCriada {
+    margin-top: 0.5rem;
+    display: block;
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    .wrapper{
+        height: auto;
+        width: 90%;
+    }
 }
