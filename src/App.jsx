@@ -20,7 +20,6 @@ function App() {
   function removerTarefa(id, concluida) {
     setTarefas((prevTarefas) => prevTarefas.filter(tarefa => tarefa.id !== id));
 
-    // Se a tarefa estava concluída, decrementa o contador
     if (concluida) {
       setTarefasConcluidas((prev) => Math.max(0, prev - 1));
     }
