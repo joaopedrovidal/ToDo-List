@@ -23,8 +23,13 @@ export function Input({ onAdicionartarefa }){
                     onChange={(e) => setNovaTarefa(e.target.value)}
                 />
                 <div>
-                    <button type="submit" className={styles.button}>
-                        Criar <img src={adicao} alt="" />
+                    <button 
+                        type="submit" 
+                        className={styles.button}>
+                            <span>Criar</span>
+                        <img src={adicao} 
+                        alt=""
+                     />
                     </button>
                 </div>
             </form>
