@@ -1,11 +1,11 @@
 <h1 align="center">
-    <img src="src/assets/tela-com-consulta.png"> 
+    <img src="src/assets/com-tarefa.png"> 
 </h1>
 
 ---
 
 <h1 align="center">
-    <img src="src/assets/tela-sem-consulta.png" width="600px"> 
+    <img src="src/assets/sem-tarefa.png" width="600px"> 
 </h1>
 
 ## 🏷️ Sobre 
