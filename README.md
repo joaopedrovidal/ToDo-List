@@ -55,7 +55,7 @@ localhost:5173
 
 - Linkedin: [@joaopedrovidal](https://www.linkedin.com/in/jo%C3%A3opedrovidaldossantos/)
 - Github: [@joaopedrovidal](https://github.com/joaopedrovidal)
-- Deploy: [...](...)
+- Deploy: [Vercel](https://todo-list-six-phi-71.vercel.app/)
 
 ---
 ## 📝 Licença
